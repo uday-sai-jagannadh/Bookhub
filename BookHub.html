@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Capillary Book Hub  </title>
+	<link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+	<script type="text/javascript" src="jquery-3.1.1.js"> </script>
+	<script type="text/javascript" src="underscore.js"> </script>
+<script type="text/javascript" src="backbone.js"> </script>
+	<script type="text/javascript" src="scr.js"> </script>
+	
+	
+</head>
+
+
+<body>
+	<div class = "row">
+		<div id="parent">
+		<div id="top" class="top">
+			<img src="images/Selection_004.png" alt="Book hub logo" id="logo" class="logo"/> 
+		
+			<div id="tright" class="tright">
+				<span >Total books: </span> <span id="totb">0</span>
+				<span> | Total Bookmarks: </span><span id="totbm">0</span>
+			</div>
+		</div>
+		</div>
+		
+		<div class="row block">
+			<div class="column" id="col1" >
+				<div class="search" id="search"> <input type="text" id="searchbox" placeholder="Search by name"/>  </div> 						<div class="listbm" id="listbm"> List Bookmarks </div>
+				<ul id="items">
+	  			</ul>
+	  			
+	  			<img src="images/Selection_013.png" id="sortimg" style="margin-left:100px;"> 
+	  			<div id="sortby"> <input type="radio" name="sort" id="rrate" value="Rating" style="margin-top:15px;">Rating 						<input type="radio" name="sort" id="rprice" value="Price">Price </div>
+				</div>
+				
+				
+			<div class="column" id="col2">
+				<!--div style="display:table;border-collapse:separate;border-spacing:10px; padding-left:100px;"-->
+				<div style="display:table;border-collapse:separate;border-spacing:10px; padding-left:80px; table-layout:fixed;">
+
+					<div class="bimg column" id="bimg" >  <img src="images/Selection_006.png" class="column" id="bookimg" />
+					</div>
+					<div class="bdes " id="bdes">
+					<p style="text-align:center; font-weight:bold;">Details </p>
+					 Publisher:<span id="publ"> </span> <br/><br/>
+					 ISBN: <span id="isbn"> </span> <br/><br/>
+					 Binding: <span id="bind"> </span> <br/><br/>
+					 Rating: <span id="rating"> </span> 
+					</div>
+					<p style="text-align:left; line-height:0.5; margin-left:-70px;margin-top:1px; margin-bottom:1px;"> 							Description: </p>
+					<div class="descr row" id="descr"> <p id="descrp"> </p> </div>
+					<img src="images/Selection_008.png" alt="share" id="shareimg" style="margin-top:20px;"/> <img 		  src="images/Selection_011.png" id="bookmarkimg" 					alt="bookmark" style="margin-top:20px; margin-left:150px;"/>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+	<footer>
+		**Basic Reference wireframe MVP
+	</footer>
+	
+	
+
+
+</body>
+
+</html>
